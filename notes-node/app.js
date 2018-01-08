@@ -4,8 +4,10 @@ const fs = require('fs');
 const os = require('os');
 const notes = require('./notes.js');
 
-var user = os.userInfo();
-var robert = "This is me";
+var res = notes.addNote();
+console.log(res);
+
+// var user = os.userInfo();
 
 
-fs.appendFileSync('greeting.txt', `Hello ${user.username}!`);
+// fs.appendFileSync('greeting.txt', `Hello ${user.username}! You are ${notes.age}.`);
