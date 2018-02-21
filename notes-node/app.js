@@ -12,7 +12,7 @@ console.log(_.isString('Robert'));
 
 
 
-// var user = os.userInfo();
+var user = os.userInfo();
 
 
-// fs.appendFileSync('greeting.txt', `Hello ${user.username}! You are ${notes.age}.`);
+fs.appendFileSync('greeting.txt', `Hello ${user.username}! You are ${notes.age}.`);
